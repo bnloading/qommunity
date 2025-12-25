@@ -1,0 +1,13 @@
+export { default as CommunitySettings } from "./CommunitySettings";
+export { default as CommunityDashboard } from "./CommunityDashboard";
+export { default as CommunityInvites } from "./CommunityInvites";
+export { default as CommunityGeneral } from "./CommunityGeneral";
+export { default as CommunityPayouts } from "./CommunityPayouts";
+export { default as CommunityPricing } from "./CommunityPricing";
+export { default as CommunityAffiliates } from "./CommunityAffiliates";
+export { default as CommunityTabs } from "./CommunityTabs";
+export { default as CommunityCategories } from "./CommunityCategories";
+export { default as CommunityRules } from "./CommunityRules";
+export { default as CommunityDiscovery } from "./CommunityDiscovery";
+export { default as CommunityMetrics } from "./CommunityMetrics";
+export { default as CommunityBilling } from "./CommunityBilling";

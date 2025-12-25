@@ -1,0 +1,280 @@
+.affiliates-page {
+  min-height: 100vh;
+  background: #f8f7f4;
+  padding-top: 60px;
+}
+
+.affiliates-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  padding: 40px 20px;
+}
+
+.affiliates-sidebar {
+  width: 280px;
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-item {
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+  margin-bottom: 2px;
+}
+
+.sidebar-item:hover {
+  background: #f8f7f4;
+}
+
+.sidebar-item.active {
+  background: #fde68a;
+  color: #000;
+}
+
+.affiliates-content {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.affiliates-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.affiliates-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.affiliates-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.stat-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.stat-card-green {
+  border-color: #22c55e;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.stat-value-green {
+  color: #22c55e;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+}
+
+.payout-btn {
+  background: #e5e5e5;
+  color: #999;
+  border: none;
+  padding: 24px 32px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: not-allowed;
+}
+
+.payout-note {
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.affiliate-links-section {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.platform-tag {
+  background: #808080;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  cursor: default;
+}
+
+.commission-text {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.commission-text strong {
+  font-weight: 700;
+}
+
+.link-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.affiliate-link-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #3b82f6;
+  background: white;
+}
+
+.copy-btn {
+  background: #fde68a;
+  color: #000;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: #fcd34d;
+}
+
+.active-status {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdown-arrow {
+  color: #999;
+}
+
+.referrals-section {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 60px;
+  text-align: center;
+}
+
+.coins-icon {
+  position: relative;
+  height: 80px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-front {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  border: 3px solid #d97706;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coin-middle {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  border: 3px solid #d97706;
+  z-index: 2;
+  left: calc(50% + 15px);
+  transform: translateX(-50%);
+}
+
+.coin-back {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  border: 3px solid #d97706;
+  z-index: 1;
+  left: calc(50% + 30px);
+  transform: translateX(-50%);
+}
+
+.dollar-sign {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.referrals-text {
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .affiliates-container {
+    flex-direction: column;
+  }
+
+  .affiliates-sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .affiliates-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .affiliates-stats {
+    grid-template-columns: 1fr;
+  }
+}
